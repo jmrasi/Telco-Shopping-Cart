@@ -1,5 +1,13 @@
 package com.jmrasi.telco.shopping.cart.beans;
-
+/* -------------------------------------------------------------------------------------------------------------
+ * CodePromo
+ * - extension and implementation of 'Promo'. Specifically designed to handle the requirement were if a valid promo code
+ * was added in a shopItem, a special discount percentage will be applied to all checkout items
+ * 
+ * Implements how the Promo will be availed, and how the computations will be performed
+ *   
+ * -------------------------------------------------------------------------------------------------------------
+ * */
 import java.util.ArrayList;
 import java.util.List;
 

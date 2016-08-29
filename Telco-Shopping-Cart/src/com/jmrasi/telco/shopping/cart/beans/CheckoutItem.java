@@ -1,5 +1,11 @@
 package com.jmrasi.telco.shopping.cart.beans;
-
+/* -------------------------------------------------------------------------------------------------------------
+ * CheckoutItem
+ * - extension of ShopItem. This is where we apply how many quantities and what will be price if ever a promo has been availed
+ * 	 Value of chkoutPrice often change which will invalidate locating them inside a set or list
+ *   
+ * -------------------------------------------------------------------------------------------------------------
+ * */
 public class CheckoutItem extends ShopItem{
 	private Integer qty;
 	private Double chkoutPrice;
