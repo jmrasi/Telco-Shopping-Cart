@@ -81,37 +81,37 @@ public class CartTesterScenario4 {
 		List<CheckoutItem> outItems = scart.getChkoutCart();
 		
 		//Displaying checkoutItems
-				System.out.println("Shopping Cart Items:");
-				System.out.println("----------------------------------------------");
-				for(CheckoutItem itm: outItems){
-					System.out.println("(" +itm.getCode() + ") - " 
-							+ itm.getName() 
-							+ " : Unit Price : " 
-							+ itm.getRegularPrice() 
-							+ " : QTY : "
-							+ itm.getQty()
-							+ " : " + Math.round((itm.getRegularPrice() * itm.getQty()) *100.0) /100.0);
-				}
-				
-				scart.performCalculation();
-				
-				//get the items again, to display discounted amount from promos availed, if any
-				outItems = scart.getChkoutCart();
-				//Displaying checkoutItems
-				System.out.println("Check Out Items:");
-				System.out.println("----------------------------------------------");
-				for(CheckoutItem itm: outItems){
-					System.out.println("(" +itm.getCode() + ") - " 
-							+ itm.getName() 
-							+ " : Unit Price : " 
-							+ itm.getRegularPrice() 
-							+ " : QTY : "
-							+ itm.getQty()
-							+ " : " + Math.round((itm.getRegularPrice() * itm.getQty()) *100.0) /100.0
-							+ " Checkout Price: " + itm.getChkoutPrice());
-				}
-				System.out.println("----------------------------------------------");
-				System.out.println("Amount Due : " + scart.getAmountDue());
-				System.out.println("----------------------------------------------");
+		System.out.println("Shopping Cart Items:");
+		System.out.println("----------------------------------------------");
+		for(CheckoutItem itm: outItems){
+			System.out.println("(" +itm.getCode() + ") - " 
+					+ itm.getName() 
+					+ " : Unit Price : " 
+					+ itm.getRegularPrice() 
+					+ " : QTY : "
+					+ itm.getQty()
+					+ " : " + Math.round((itm.getRegularPrice() * itm.getQty()) *100.0) /100.0);
+		}
+		
+		scart.performCalculation();
+		
+		//get the items again, to display discounted amount from promos availed, if any
+		outItems = scart.getChkoutCart();
+		//Displaying checkoutItems
+		System.out.println("Check Out Items:");
+		System.out.println("----------------------------------------------");
+		for(CheckoutItem itm: outItems){
+			System.out.println("(" +itm.getCode() + ") - " 
+					+ itm.getName() 
+					+ " : Unit Price : " 
+					+ itm.getRegularPrice() 
+					+ " : QTY : "
+					+ itm.getQty()
+					+ " : " + Math.round((itm.getRegularPrice() * itm.getQty()) *100.0) /100.0
+					+ " Checkout Price: " + itm.getChkoutPrice());
+		}
+		System.out.println("----------------------------------------------");
+		System.out.println("Amount Due : " + scart.getAmountDue());
+		System.out.println("----------------------------------------------");
 	}
 }
