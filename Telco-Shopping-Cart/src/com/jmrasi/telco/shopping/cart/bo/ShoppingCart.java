@@ -1,14 +1,11 @@
 package com.jmrasi.telco.shopping.cart.bo;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.HashMap;
+import java.util.List;
+import java.util.Set;
 
-import com.jmrasi.telco.shopping.cart.beans.CalculationType;
 import com.jmrasi.telco.shopping.cart.beans.CheckoutItem;
 import com.jmrasi.telco.shopping.cart.beans.Promo;
 import com.jmrasi.telco.shopping.cart.beans.ShopItem;

@@ -3,12 +3,14 @@ package com.jmrasi.telco.shopping.cart.tester;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
-import com.jmrasi.telco.shopping.cart.beans.*;
+import com.jmrasi.telco.shopping.cart.beans.CalculationType;
+import com.jmrasi.telco.shopping.cart.beans.CheckoutItem;
+import com.jmrasi.telco.shopping.cart.beans.Promo;
+import com.jmrasi.telco.shopping.cart.beans.SecondPromo;
+import com.jmrasi.telco.shopping.cart.beans.ShopItem;
 import com.jmrasi.telco.shopping.cart.bo.ShoppingCart;
-import com.jmrasi.telco.shopping.cart.services.CartService;
 
 public class CartTesterScenario2 {
 	

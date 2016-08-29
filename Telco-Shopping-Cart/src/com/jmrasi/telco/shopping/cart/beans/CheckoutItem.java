@@ -1,8 +1,5 @@
 package com.jmrasi.telco.shopping.cart.beans;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-
 public class CheckoutItem extends ShopItem{
 	private Integer qty;
 	private Double chkoutPrice;
